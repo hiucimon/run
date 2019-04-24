@@ -1,0 +1,9 @@
+
+{
+  "options": [
+    "-var"," profile=GR_GG_COF_AWS_Sandbox_TempPoCAccess"
+  ],
+  "command": "terraform",
+  "before": ["RefreshCredentials"],
+  "after": ["UpdateHosts"]
+}
